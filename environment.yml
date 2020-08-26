@@ -1,0 +1,13 @@
+name: altair-exp
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - altair=4.1.*
+  - pandas=1.1.*
+  - jupyterlab=2.2.*
+  - seaborn=0.10.*
+  - pip=20.*
+  - pip:
+    - tacosdedatos-utils
+    - vega_datasets
